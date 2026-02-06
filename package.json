@@ -4,7 +4,7 @@
   "description": "Projeto de desenvolvimento pessoal e didático inspirado no https://tabnews.com.br, criado durante os estudos do https://curso.dev, com foco em prática de programação, arquitetura de software e evolução contínua como desenvolvedor.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev"
   },
   "author": "",
   "license": "MIT",
