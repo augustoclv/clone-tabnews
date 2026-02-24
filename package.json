@@ -4,13 +4,18 @@
   "description": "Projeto de desenvolvimento pessoal e didático inspirado no https://tabnews.com.br, criado durante os estudos do https://curso.dev, com foco em prática de programação, arquitetura de software e evolução contínua como desenvolvedor.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "next": "^13.1.6",
+    "next": "^15.5.12",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }
